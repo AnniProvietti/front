@@ -1,8 +1,27 @@
 .texto{
-    color: antiquewhite;
-    background-color: black;
+    position: absolute;
+    height: 24px;
+    left: 4.32%;
+    right: 82.5%;
+    top: calc(50% - 24px/2 - 444px);
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 24px;
+/* identical to box height, or 67% */
+
+
+    color: #FFFFFF;
 }
 .destaque{
     color: coral;
     background-color: beige;
+}
+
+.caixa{
+    width: 1434px;
+    height: 1024px;
+    background-color: #663399;
 }
