@@ -1,17 +1,118 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Padrão</title>
+        <title>Formulario</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="externo.css">
-    </head>
-    <body>
+        <!--<link rel="stylesheet" type="text/css" href="FormularioCSS.css">-->
+        <style type="text/css">
+            div{
+                
+                position: relative;
+                display: block;
+                width: 1434px;
+                height: 1024px;
+                background-color: #663399;
+                }
+            div.caixa{
+
+                position: absolute;
+                display: block;
+                width: 560px;
+                height: 794px;
+                Top: 112px;
+                Left: 62px;
+                Radius: 8px;
+                background-color:  #f2f2f2;
+                border: 1px solid #979797;
+                position: absolute;
+                left: 6.32%;
+                right: 56.62%;
+                top: 13.94%;
+                bottom: 11.52%;
+                box-shadow: 10px 22px 24px rgba(0, 0, 0, 0.5);
+                border-radius: 8px;
+                
+            }
+            p.form{
+
+                font-family: Inter;
+                height: 24px;
+                width: 189px;
+                left: 62px;
+                top: 56px;
+                border-radius: nullpx;
+
+                font-size: 30px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                position: absolute;
+                height: 24px;
+                left: 6.32%;
+                right: 82.5%;
+                top: calc(50% - 24px/2 - 444px);
+                /* identical to box height, or 67% */
+                color: white;
+
+            }
+            div.caixa2{
+                position: absolute;
+                display: block;
+                width: 560px;
+                height: 794px;
+                Top: 112px;
+                Left: 62px;
+                Radius: 8px;
+                background-color:  #f2f2f2;
+                border: 1px solid #979797;
+                position: absolute;
+                left: 49.23%;
+                right: 56.62%;
+                top: 13.94%;
+                bottom: 11.52%;
+                box-shadow: 10px 22px 24px rgba(0, 0, 0, 0.5);
+                border-radius: 8px;    
+            }
+            p.guide{
+                font-family: Inter;
+                height: 24px;
+                width: 189px;
+                left: 62px;
+                top: 56px;
+                border-radius: nullpx;
+
+                font-size: 30px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                position: absolute;
+                height: 24px;
+                left: 49.23%;
+                right: 82.5%;
+                top: calc(50% - 24px/2 - 444px);
+                /* identical to box height, or 67% */
+                color: white;
+
+            }
+            
+            
         
-    <span >
-        <p class="texto">
-            ABRACADABRA!
-        </p>
-        <P class="destaque"> ABRACADABRA...</P>
-    </span>
+        </style>
+    </head>
+    <body >
+        <div>
+            <p class="form">Formulário</p>
+            <div class="caixa">
+                
+            </div>
+            <p class="guide"> Styleguide</p>
+            <div class="caixa2"></div>
+        </div>   
+    
+    
     </body>
 </html>
