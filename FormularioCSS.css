@@ -1,27 +1,77 @@
-.texto{
-    position: absolute;
-    height: 24px;
-    left: 4.32%;
-    right: 82.5%;
-    top: calc(50% - 24px/2 - 444px);
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 24px;
-/* identical to box height, or 67% */
-
-
-    color: #FFFFFF;
-}
-.destaque{
-    color: coral;
-    background-color: beige;
-}
-
-.caixa{
+div.painel{
+    
+    position: relative;
+    display: block;
     width: 1434px;
     height: 1024px;
     background-color: #663399;
+    }
+div.caixa{
+
+    position: absolute;
+    display: block;
+    width: 560px;
+    height: 794px;
+    top: 112px;
+    left: 62px;
+    background-color:  #f2f2f2;
+    border: 1px solid #979797;
+    position: absolute;
+    left: 6.32%;
+    right: 56.62%;
+    top: 13.94%;
+    bottom: 11.52%;
+    box-shadow: 10px 22px 24px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    
+}
+div.retangulo{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+}
+p.form{
+
+    font-family: Inter;
+    height: 24px;
+    width: 189px;
+    left: 62px;
+    top: 56px;
+    border-radius: nullpx;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    height: 24px;
+    left: 6.32%;
+    right: 82.5%;
+    top: calc(50% - 24px/2 - 444px);
+    /* identical to box height, or 67% */
+    color: white;
+
+}
+div.caixa2{
+    position: absolute;
+    display: block;
+    width: 560px;
+    height: 794px;
+    top: 112px;
+    left: 62px;
+    background-color:  #f2f2f2;
+    border: 1px solid #979797;
+    position: absolute;
+    left: 49.23%;
+    right: 56.62%;
+    top: 13.94%;
+    bottom: 11.52%;
+    box-shadow: 10px 22px 24px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;    
+}
+p.guide{
+    left: 49.23%;
+    right: 82.5%;
 }
